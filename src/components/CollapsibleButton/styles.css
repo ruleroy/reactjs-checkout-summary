@@ -1,0 +1,124 @@
+.collapse-btn {
+  background: transparent;
+  text-decoration: underline;
+  border: none;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 0px;
+}
+
+.item-details-product {
+  display: grid;
+  margin-top: 15px;
+  word-wrap: break-word;
+  font-size: 0.875rem;
+  grid-row-gap: 3px;
+}
+
+.item-details-thumbnail img {
+  max-width: 55px;
+  max-height: 55px;
+}
+
+.item-details-name {
+  margin-left: 10px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.item-details-price,
+.item-details-subtotal {
+  margin-left: 10px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-weight: 600;
+}
+.item-details-subtotal {
+  color: #6d6e71;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+.item-details-qty {
+  margin-left: 10px;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+.item-details-color {
+  margin-left: 10px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  font-size: 0.75rem;
+  color: #6d6e71;
+}
+.promo-code-box {
+  margin-top: 15px;
+  overflow: hidden;
+}
+.promo-code-box-label {
+  margin-left: 0;
+  white-space: nowrap;
+  color: #6d6e71;
+  font-size: 0.875rem;
+}
+.promo-code-box-input {
+  background-color: #fff;
+  min-height: 2.5em;
+  padding: 0 0.625em;
+  margin: 0;
+  border: 1px solid;
+  border-radius: 0.25em;
+  border-color: #e6e7e8;
+  font-size: 0.75rem;
+  color: #222;
+  line-height: 2.375em;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.promo-code-box-input:focus {
+  border-color: #222;
+  box-shadow: none;
+  border-width: 2px;
+  outline: none;
+}
+.failed-text {
+  color: #de1c24;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.failed {
+  border-color: #de1c24;
+}
+
+.failed:focus {
+  border-color: #de1c24;
+}
+
+.promo-code-box-span {
+  display: block;
+  overflow: hidden;
+  padding-right: 25px;
+}
+.promo-code-box-btn {
+  float: right;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 30px;
+  color: #000;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.promo-code-box-btn:hover {
+  border: 1px solid #383838;
+  color: #383838;
+}

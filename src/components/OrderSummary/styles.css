@@ -1,0 +1,101 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.summary {
+  background: #fff;
+  padding: 15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16);
+}
+
+.purchaseSummary {
+  overflow: auto;
+}
+
+.purchaseSummary-label {
+  float: left;
+  font-size: 0.875rem;
+  font-weight: 400;
+  clear: both;
+}
+
+.purchaseSummary-price {
+  float: right;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.purchaseSummary-price-text {
+  color: #de1c24;
+}
+
+.purchaseSummary-subtotal {
+  overflow: auto;
+}
+
+.purchaseSummary-pickupSavings,
+.purchaseSummary-tax,
+.purchaseSummary-total,
+.purchaseSummary-discount {
+  overflow: auto;
+  margin: 10px 0;
+}
+
+.total {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.total-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.divider {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
+}
+
+.purchaseSummary-details,
+.purchaseSummary-promo {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  .purchaseSummary {
+    width: 188px;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .purchaseSummary {
+    width: 188px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .purchaseSummary {
+    width: 100%;
+  }
+
+  .summary {
+    width: 100%;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .purchaseSummary {
+    width: 100%;
+  }
+}
